@@ -255,22 +255,22 @@ tbody tr:hover {
     top: 0;
   }
   table tbody tr td:nth-child(1):before {
-    content: "Date";
+    content: "Upadate";
   }
   table tbody tr td:nth-child(2):before {
-    content: "Order ID";
+    content: "No";
   }
   table tbody tr td:nth-child(3):before {
     content: "Name";
   }
   table tbody tr td:nth-child(4):before {
-    content: "Price";
+    content: "Link";
   }
   table tbody tr td:nth-child(5):before {
-    content: "Quantity";
+    content: "Report";
   }
   table tbody tr td:nth-child(6):before {
-    content: "Total";
+    content: "Donasi";
   }
 
   .column4,
