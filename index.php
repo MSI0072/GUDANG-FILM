@@ -143,7 +143,7 @@ $link8 = "http://103.194.171.18/";
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 <!--===============================================================================================-->
-	SCRIPT DUIT CC
+
 <!--===============================================================================================-->
 	<script type="text/javascript" src="https://duit.cc/safelink.js?id=95130"></script>
 	<script type="text/javascript">	protected_links = "facebook.com,twitter.com,instagram.com,ouo.io"; auto_safelink(); </script>
