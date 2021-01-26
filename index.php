@@ -30,6 +30,13 @@
 
   gtag('config', 'G-7762JVW572');
 </script>
+<script type="text/javascript">
+//<![CDATA[
+var encode=document.getElementById("encode"),decode=document.getElementById("decode"),output=document.getElementById("output"),input=document.getElementById("input"),User_ID="",protected_links="",a_to_va=0,a_to_vb=0,a_to_vc="";function auto_safelink(){auto_safeconvert()}function auto_safeconvert(){var t=window.location.hostname;""==protected_links||protected_links.match(t)?""==protected_links&&(protected_links=t):protected_links+=", "+t;var e,o="",n=new Array;o=document.getElementsByTagName("a"),a_to_va=o.length,e=(n=a_to_fa()).length;for(var a=!1,r=0,_="",c=0;c<a_to_va;c++){for(a=!1,r=0;0==a&&r<e;)!(_=o[c].href).match(n[r])&&_&&_.match("http")||(a=!0),r++;if(0==a){var d=_;o[c].href="https://duit.cc/short-url/go.php?userid=95130&short="+d,o[c].rel="nofollow",a_to_vb++,a_to_vc+=c+":::"+o[c].href+"\n"}}var l=document.getElementById("anonyminized"),i=document.getElementById("found_links");l&&(l.innerHTML+=a_to_vb),i&&(i.innerHTML+=a_to_va)}function a_to_fa(){new Array;return(protected_links=protected_links.replace(" ","")).split(",")}
+//]]></script>
+
+<script type="text/javascript">protected_links = "";auto_safelink();</script>
+
 </head>
 <body>
 	
@@ -43,8 +50,8 @@
 								<th class="column1">Upadate</th>
 								<th class="column2">No</th>
 								<th class="column3">Name</th>
-								<th class="column4">Link</th>
-								<th class="column5">Report</th>
+								<th class="column4">Server 1</th>
+								<th class="column5">Server 2</th>
 								<th class="column6">Status</th>
 							</tr>
 						</thead>
@@ -54,7 +61,7 @@
 									<td class="column2">1</td>
 									<td class="column3">Pusat Film 21</td>
 									<td class="column4"><a href="https://ouo.io/xJ0jq0">Link</a></td>
-									<td class="column5"><a href="https://t.me/LINK_NONTON_FILM">Report</a></td>
+									<td class="column5"><a href="http://51.79.154.249/">Link</a></td>
 									<td class="column6">Aktif</td>
 								</tr>
 								<tr>
@@ -62,7 +69,7 @@
 									<td class="column2">2</td>
 									<td class="column3">Indo XXI</td>
 									<td class="column4"><a href="https://ouo.io/JZNZlv">Link</a></td>
-									<td class="column5"><a href="https://t.me/LINK_NONTON_FILM">Report</a></td>
+									<td class="column5"><a href="http://207.244.228.130/">Link</a></td>
 									<td class="column6">Aktif</td>
 								</tr>
 								<tr>
@@ -70,7 +77,7 @@
 									<td class="column2">3</td>
 									<td class="column3">Terbit 21</td>
 									<td class="column4"><a href="https://ouo.io/pr2j3l">Link</a></td>
-									<td class="column5"><a href="https://t.me/LINK_NONTON_FILM">Report</a></td>
+									<td class="column5"><a href="http://185.63.253.222/">Link</a></td>
 									<td class="column6">Aktif</td>
 								</tr>
 								<tr>
@@ -78,7 +85,7 @@
 									<td class="column2">4</td>
 									<td class="column3">Save Film 21</td>
 									<td class="column4"><a href="https://ouo.io/R0scTU">Link</a></td>
-									<td class="column5"><a href="https://t.me/LINK_NONTON_FILM">Report</a></td>
+									<td class="column5"><a href="http://173.212.233.209/">Link</a></td>
 									<td class="column6">Aktif</td>
 								</tr>
 								<tr>
@@ -86,7 +93,7 @@
 									<td class="column2">5</td>
 									<td class="column3">Gomunime</td>
 									<td class="column4"><a href="https://ouo.io/RFi6Qh">Link</a></td>
-									<td class="column5"><a href="https://t.me/LINK_NONTON_FILM">Report</a></td>
+									<td class="column5"><a href="https://gomunime.vip">Link</a></td>
 									<td class="column6">Aktif</td>
 								</tr>
 								<tr>
@@ -94,7 +101,7 @@
 									<td class="column2">6</td>
 									<td class="column3">Rebahin</td>
 									<td class="column4"><a href="https://ouo.io/HAh2Zn">Link</a></td>
-									<td class="column5"><a href="https://t.me/LINK_NONTON_FILM">Report</a></td>
+									<td class="column5"><a href="http://85.114.138.56">Link</a></td>
 									<td class="column6">Aktif</td>
 								</tr>
 								<tr>
@@ -102,7 +109,7 @@
 									<td class="column2">7</td>
 									<td class="column3">Gudang Movies</td>
 									<td class="column4"><a href="https://ouo.io/PqnPEZF">Link</a></td>
-									<td class="column5"><a href="https://t.me/LINK_NONTON_FILM">Report</a></td>
+									<td class="column5"><a href="http://159.65.3.51/">Link</a></td>
 									<td class="column6">Aktif</td>
 								</tr>
 								<tr>
@@ -110,7 +117,7 @@
 									<td class="column2">8</td>
 									<td class="column3">Film Apik</td>
 									<td class="column4"><a href="https://ouo.io/SWtD7K">Link</a></td>
-									<td class="column5"><a href="https://t.me/LINK_NONTON_FILM">Report</a></td>
+									<td class="column5"><a href="http://103.194.171.18/">Link</a></td>
 									<td class="column6">Aktif</td>
 								</tr>
 						</tbody>
