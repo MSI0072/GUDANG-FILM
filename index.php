@@ -1,17 +1,7 @@
 <?php
-$link1 = "http://51.79.154.249/";
-$link2 = "http://207.244.228.130/";
-$link3 = "http://185.63.253.222";
-$link4 = "http://173.212.233.209";
-$link5 = "https://gomunime.vip";
-$link6 = "http://85.114.138.56";
-$link7 = "http://159.65.3.51";
-$link8 = "http://103.194.171.18/";
-$link9 = "https://www.ondemandkorea.com/";
-$link9 = "https://www.viu.com";
-$link9 = "http://149.56.24.226/";
-$link9 = "http://199.231.164.17/";
-$link9 = "https://www.ondemandkorea.com/";
+
+$json = file_get_contents('js/database.json');
+$json_decoded = json_decode($json,TRUE);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,8 +37,7 @@ $link9 = "https://www.ondemandkorea.com/";
 </script>
 </head>	
 <body>
-	
-	<div class="limiter">
+<div class="limiter">
 		<div class="container-table100">
 			<div class="wrap-table100">
 				<div class="table100">
@@ -64,70 +53,20 @@ $link9 = "https://www.ondemandkorea.com/";
 							</tr>
 						</thead>
 						<tbody>
-								<tr>
-									<td class="column1">2021-01-20 01:22</td>
-									<td class="column2">1</td>
-									<td class="column3">Pusat Film 21</td>
-									<td class="column4"><a href="https://ouo.io/xJ0jq0">Link</a></td>
-									<td class="column5"><a href="<?php echo $link1;?>">Link</a></td>
-									<td class="column6">Aktif</td>
-								</tr>
-								<tr>
-									<td class="column1">2021-01-20 01:22</td>
-									<td class="column2">2</td>
-									<td class="column3">Indo XXI</td>
-									<td class="column4"><a href="https://ouo.io/JZNZlv">Link</a></td>
-									<td class="column5"><a href="<?php echo $link2;?>">Link</a></td>
-									<td class="column6">Aktif</td>
-								</tr>
-								<tr>
-									<td class="column1">2021-01-20 01:22</td>
-									<td class="column2">3</td>
-									<td class="column3">Terbit 21</td>
-									<td class="column4"><a href="https://ouo.io/pr2j3l">Link</a></td>
-									<td class="column5"><a href="<?php echo $link3;?>">Link</a></td>
-									<td class="column6">Aktif</td>
-								</tr>
-								<tr>
-									<td class="column1">2021-01-20 01:22</td>
-									<td class="column2">4</td>
-									<td class="column3">Save Film 21</td>
-									<td class="column4"><a href="https://ouo.io/R0scTU">Link</a></td>
-									<td class="column5"><a href="<?php echo $link4;?>">Link</a></td>
-									<td class="column6">Aktif</td>
-								</tr>
-								<tr>
-									<td class="column1">2021-01-20 01:22</td>
-									<td class="column2">5</td>
-									<td class="column3">Gomunime</td>
-									<td class="column4"><a href="https://ouo.io/RFi6Qh">Link</a></td>
-									<td class="column5"><a href="<?php echo $link5;?>">Link</a></td>
-									<td class="column6">Aktif</td>
-								</tr>
-								<tr>
-									<td class="column1">2021-01-20 01:22</td>
-									<td class="column2">6</td>
-									<td class="column3">Rebahin</td>
-									<td class="column4"><a href="https://ouo.io/HAh2Zn">Link</a></td>
-									<td class="column5"><a href="<?php echo $link6;?>">Link</a></td>
-									<td class="column6">Aktif</td>
-								</tr>
-								<tr>
-									<td class="column1">2021-01-20 01:22</td>
-									<td class="column2">7</td>
-									<td class="column3">Gudang Movies</td>
-									<td class="column4"><a href="https://ouo.io/PqnPEZF">Link</a></td>
-									<td class="column5"><a href="<?php echo $link7;?>">Link</a></td>
-									<td class="column6">Aktif</td>
-								</tr>
-								<tr>
-									<td class="column1">2021-01-26 01:30</td>
-									<td class="column2">8</td>
-									<td class="column3">Film Apik</td>
-									<td class="column4"><a href="https://ouo.io/SWtD7K">Link</a></td>
-									<td class="column5"><a href="<?php echo $link8;?>">Link</a></td>
-									<td class="column6">Aktif</td>
-								</tr>
+						<?php
+    						foreach($json_decoded as $result){
+        				?>
+        					<tr>
+            					<td class="column1"><?php echo $result['column1']; ?></td>
+            					<td class="column2"><?php echo $result['column2']; ?></td>
+            					<td class="column3"><?php echo $result['column3']; ?></td>
+								<td class="column4"><?php echo $result['column4']; ?></td>
+								<td class="column5"><?php echo $result['column5']; ?></td>
+								<td class="column6"><?php echo $result['column6']; ?></td>
+        					</tr>
+						<?php   
+						}
+						?>
 						</tbody>
 					</table>
 				</div>
@@ -152,6 +91,5 @@ $link9 = "https://www.ondemandkorea.com/";
 <!--===============================================================================================-->
 	<script type="text/javascript" src="https://duit.cc/safelink.js?id=95130"></script>
 	<script type="text/javascript">	protected_links = "facebook.com,twitter.com,instagram.com,ouo.io"; auto_safelink(); </script>
-
 </body>
 </html>
