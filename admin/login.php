@@ -69,6 +69,8 @@ if(isset($_POST['submit'])){
             </div>
             <?php echo $form_error; ?>
             <button type="submit" name="submit" value="Login" class="btn btn-primary">LOGIN</button>
+            <hr>
+            <p>Kembali ke <a href="../">home</a></p>
         </from>
     </div>
 

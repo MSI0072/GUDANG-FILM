@@ -6,7 +6,8 @@ session_start();
 if( empty($_SESSION['username']) ){
     header('Location: index.php');
 }
-
+date_default_timezone_set('Asia/Jakarta');
+$date = new DateTime();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -116,6 +117,7 @@ h1,h2 {
 <nav class="navbar navbar-default ">
   <div class="container-fluid">
   <button type="button" class="btn btn-default navbar-btn"><a href="../admin/logout.php">Log out</a></button>
+  <button type="button" class="btn btn-default navbar-btn"><a href="../">Home</a></button>
   </div><!-- /.container-fluid -->
 </nav>
 <div class="container">
@@ -150,15 +152,12 @@ h1,h2 {
 
 <section class="content">
   <h1 class="content__heading">Add database</h1>
-  <p class="content__lede">please check first before filling</p>
+  <p class="content__lede">Please check first before filling</p>
   <form class="content__form contact-form">
     <div class="testing">
       <p>Does this do anything?</p>
     </div>
-    <div class="contact-form__input-group">
-      <label class="contact-form__label" for="column1">Times</label>
-      <input class="contact-form__input contact-form__input--text" id="column1" name="column1" type="text"/>
-    </div>
+    <input name="column1" type="hidden" value="<?php echo $date->format('d-m-Y  H:i');?>"/>
     <input name="column2" type="hidden" value="<?php echo $elementCount+1?>"/>
     <div class="contact-form__input-group">
       <label class="contact-form__label" for="column3">Name</label>
@@ -334,6 +333,7 @@ const handleFormSubmit = event => {
   dataContainer.textContent = JSON.stringify(data, null, "  ");
 
   // ...this is where we’d actually do something with the form data...
+  
 };
 
 /*
