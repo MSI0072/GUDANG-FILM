@@ -60,8 +60,8 @@ $json_decoded = json_decode($json,TRUE);
             					<td class="column1"><?php echo $result['column1']; ?></td>
             					<td class="column2"><?php echo $result['column2']; ?></td>
             					<td class="column3"><?php echo $result['column3']; ?></td>
-								<td class="column4"><?php echo $result['column4']; ?></td>
-								<td class="column5"><?php echo $result['column5']; ?></td>
+								<td class="column4"><a href="<?php echo $result['column4']; ?>">Link</a></td>
+								<td class="column5"><a href="<?php echo $result['column5']; ?>">Link</a></td>
 								<td class="column6"><?php echo $result['column6']; ?></td>
         					</tr>
 						<?php   
