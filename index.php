@@ -87,9 +87,11 @@ $json_decoded = json_decode($json,TRUE);
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 <!--===============================================================================================-->
-
-<!--===============================================================================================-->
-	<script type="text/javascript" src="https://duit.cc/safelink.js?id=95130"></script>
-	<script type="text/javascript">	protected_links = "facebook.com,twitter.com,instagram.com,ouo.io"; auto_safelink(); </script>
+	<script type="text/javascript">
+    	var go_url = 'https://semawur.com/';
+    	var api = 'a0d25cafe9d722ec615b931aff4938045b2a0860';
+    	var shorten_exclude = ["ouo.io"];
+	</script>
+	<script src='//safelinku.com/js/web-script.js'></script>
 </body>
 </html>
