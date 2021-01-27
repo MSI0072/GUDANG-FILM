@@ -1,34 +1,66 @@
 [
-  {
-    "column1": "2021-01-20 01:22",
-    "column2": "1",
-    "column3": "Pusat Film 21",
-    "column4": "https://google.com",
-    "column5": "https://google.com",
-    "column6": "Aktif"
-  },
-  {
-    "column1": "2021-01-20 01:22",
-    "column2": "1",
-    "column3": "Pusat Film 21",
-    "column4": "https://google.com",
-    "column5": "https://google.com",
-    "column6": "Aktif"
-  },
-  {
-    "column1": "2021-01-20 01:22",
-    "column2": "1",
-    "column3": "Pusat Film 21",
-    "column4": "https://google.com",
-    "column5": "https://google.com",
-    "column6": "Aktif"
-  },
-  {
-    "column1": "2021-01-20 01:22",
-    "column2": "1",
-    "column3": "Pusat Film 21",
-    "column4": "https://google.com",
-    "column5": "https://google.com",
-    "column6": "Aktif"
-  }
-]
+    {
+      "column1": "2021-01-20 01:22",
+      "column2": "1",
+      "column3": "Pusat Film 21",
+      "column4": "<a href='https://ouo.io/xJ0jq0'>Link</a>",
+      "column5": "<a href='<?php echo $link1;?>'>Link</a>",
+      "column6": "Aktif"
+    },
+    {
+      "column1": "2021-01-20 01:22",
+      "column2": "2",
+      "column3": "Indo XXI",
+      "column4": "<a href='https://ouo.io/JZNZlv'>Link</a>",
+      "column5": "<a href='<?php echo $link2;?>'>Link</a>",
+      "column6": "Aktif"
+    },
+    {
+      "column1": "2021-01-20 01:22",
+      "column2": "3",
+      "column3": "Terbit 21",
+      "column4": "<a href='https://ouo.io/pr2j3l'>Link</a>",
+      "column5": "<a href='<?php echo $link3;?>'>Link</a>",
+      "column6": "Aktif"
+    },
+    {
+      "column1": "2021-01-20 01:22",
+      "column2": "4",
+      "column3": "Save Film 21",
+      "column4": "<a href='https://ouo.io/R0scTU'>Link</a>",
+      "column5": "<a href='<?php echo $link4;?>'>Link</a>",
+      "column6": "Aktif"
+    },
+    {
+      "column1": "2021-01-20 01:22",
+      "column2": "5",
+      "column3": "Gomunime",
+      "column4": "<a href='https://ouo.io/RFi6Qh'>Link</a>",
+      "column5": "<a href='<?php echo $link5;?>'>Link</a>",
+      "column6": "Aktif"
+    },
+    {
+      "column1": "2021-01-20 01:22",
+      "column2": "6",
+      "column3": "Rebahin",
+      "column4": "<a href='https://ouo.io/HAh2Zn'>Link</a>",
+      "column5": "<a href='<?php echo $link6;?>'>Link</a>",
+      "column6": "Aktif"
+    },
+    {
+      "column1": "2021-01-20 01:22",
+      "column2": "7",
+      "column3": "Gudang Movies",
+      "column4": "<a href='https://ouo.io/PqnPEZF'>Link</a>",
+      "column5": "<a href='<?php echo $link7;?>'>Link</a>",
+      "column6": "Aktif"
+    },
+    {
+      "column1": "2021-01-26 01:30",
+      "column2": "8",
+      "column3": "Film Apik",
+      "column4": "<a href='https://ouo.io/SWtD7K'>Link</a>",
+      "column5": "<a href='<?php echo $link8;?>'>Link</a>",
+      "column6": "Aktif"
+    }
+  ]
